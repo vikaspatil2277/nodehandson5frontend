@@ -11,6 +11,7 @@ const ChatBody = ({messages, typingStatus, lastMessageRef}) => {
     window.location.reload()
   }
 
+  
   const name=localStorage.getItem("userName")
   
   return (

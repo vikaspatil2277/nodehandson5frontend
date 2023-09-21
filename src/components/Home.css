@@ -173,6 +173,7 @@ font-size: 15px;
   font-style: italic;
 }
 
+
 @media (max-width: 768px) {
 
   .message__container {

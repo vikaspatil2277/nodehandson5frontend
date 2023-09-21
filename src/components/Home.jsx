@@ -10,6 +10,7 @@ const Home = ({socket}) => {
         localStorage.setItem("userName", userName)
         socket.emit("newUser", {userName, socketID: socket.id})
         navigate("/chat")
+        
     }
   return (
     <form className='home__container' onSubmit={handleSubmit}>
