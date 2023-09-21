@@ -172,3 +172,17 @@ font-size: 15px;
   font-size: 13px;
   font-style: italic;
 }
+
+@media (max-width: 768px) {
+
+  .message__container {
+    height: 92vh;
+  }
+
+  .chat__sidebar {
+    height: 115vh;
+    margin-top: 60px;
+   
+  }
+
+}
